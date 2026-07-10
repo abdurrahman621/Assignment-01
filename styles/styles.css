@@ -1,0 +1,29 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+    margin: 10px auto;
+padding-top: 10px;
+
+
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 12px 0px;
+    list-style: none;
+    gap: 20px;
+
+}
+
+ul li a {
+    text-decoration: none;
+}
+.max-w{
+    max-width: 1000px;
+    background-color: white;
+
+}
