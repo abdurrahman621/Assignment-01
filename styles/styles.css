@@ -42,7 +42,7 @@ ul li a {
     padding: 10px 20px;
     border-radius: 8px;
     cursor: pointer;
-     border: none;
+    border: none;
 }
 
 button:hover {
@@ -54,7 +54,7 @@ button:hover {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),
             rgba(0, 0, 0, 0.5)), url('../images/banner.jpg');
     background-size: cover;
-    height: 1000px;
+    height: 1200px;
     width: auto;
     background-size: cover;
     background-position: center;
@@ -62,6 +62,7 @@ button:hover {
     justify-content: center;
     align-items: center;
     text-align: center;
+
 }
 
 .hero-content {
@@ -69,13 +70,18 @@ button:hover {
 }
 
 .hero-content h1 {
-    font-size: 80px;
-    
+    /* font-size: px; */
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 100px;
+
 }
 
 .hero-content p {
-    width: 700px;
-    margin: 20px auto;
+    margin-top: 0;
+    margin-bottom: 600px;
+    font-size: 38px;
+
 
 }
 
@@ -83,8 +89,25 @@ button:hover {
     display: flex;
     position: relative;
     top: 400px;
-    right: 360px;
-   
+    right: 600px;
+}
 
+.meet {
+    margin: 25px;
 
+}
+
+.img {
+    display:flex;
+    gap: 15px;
+    width: 50px;
+    height: 50px;
+    justify-content: space-between; 
+    
+}
+.color{
+    color: #2563EB;
+}
+.color-two{
+    color: #575757;
 }
